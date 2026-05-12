@@ -2,16 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
-// TODO: Replace with your NEW Firebase project configuration for Login/Auth
-// If you want the SAME database, ensure the Project ID is the same, 
-// or configure Firestore separately.
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID", // Same as newbi-entertainments if sharing DB
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBnl7hSfXXUj4khyV3yrhT5oUtMQfdoH_A",
+  authDomain: "newbi-ent-v2.firebaseapp.com",
+  projectId: "newbi-ent-v2",
+  storageBucket: "newbi-ent-v2.firebasestorage.app",
+  messagingSenderId: "860370467784",
+  appId: "1:860370467784:web:d7b4dfc66336f6da50defd"
 };
 
 const app = initializeApp(firebaseConfig);
