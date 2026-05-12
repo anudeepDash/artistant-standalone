@@ -237,7 +237,7 @@ const ArtistAnt = () => {
     return (
         <div className="min-h-screen bg-[#050505] text-white relative font-outfit scroll-smooth">
             <Helmet>
-                <title>Artistant — Your Artist. Your Assistant.</title>
+                <title>Artistant — the ultimate creative link-up.</title>
                 <meta name="description" content="Artistant is India's premier artist booking platform. Connect verified live performers — singers, DJs, bands, comedians — with event organizers. Book talent instantly." />
                 <link rel="canonical" href="https://artistant.in" />
             </Helmet>
@@ -337,7 +337,7 @@ const ArtistAnt = () => {
                                         className="relative z-30 w-full mx-auto px-4"
                                     >
                                         <h1 className="text-[20px] sm:text-2xl md:text-3xl lg:text-4xl font-black font-heading tracking-[0.1em] sm:tracking-[0.25em] uppercase italic leading-none text-white opacity-90 drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">
-                                            YOUR ARTIST. <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B6B] via-white to-[#7B61FF] not-italic">YOUR ASSISTANT.</span>
+                                            THE ULTIMATE <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B6B] via-white to-[#7B61FF] not-italic">CREATIVE LINK-UP.</span>
                                         </h1>
                                     </motion.div>
                                 </div>
