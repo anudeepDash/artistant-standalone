@@ -7,7 +7,7 @@ import {
     Globe, Terminal, Award, BarChart3, Clock, Sparkles, Trash2, 
     AlertTriangle, User, Settings, ExternalLink, Mail, Phone, 
     LayoutDashboard, Zap, ChevronRight, ChevronLeft, ChevronDown, 
-    Rocket, Camera, Upload, CheckCircle2, UserCheck, AlertCircle
+    Rocket, Camera, Upload, CheckCircle2, UserCheck, AlertCircle, Shield
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../lib/utils';
